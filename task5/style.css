@@ -1,0 +1,50 @@
+
+ * {padding: 0; margin: 0;}
+ body{background-color: #ccc;font-family: 黑体;}
+ img{width: 300px;}
+ .section3 li img{width: 100px;}
+ p{line-height: 30px;}
+ h2{margin: 20px 0;}
+ h3{margin: 10px 0;color: gray;}
+ h4{color: gray;font-size: 10px; margin:5px 0;}
+
+
+
+
+header{ width:100%; background-color: #333; overflow: hidden; position: relative;}
+.logo{float: left;}
+.logo img{width: 150px;}
+header nav{float: right; position: absolute; top: 50%; transform:translateY(-50%); right: 1%;}
+nav ul li{float: left; margin-right: 30px;}
+nav ul li a{color: white;}
+nav ul li a:hover{color: #ccc;}
+
+.bigtable tbody{vertical-align: top;}
+.article{}
+.aside{width: 550px;}
+
+section,aside{background-color: white; margin: 30px;padding: 25px;box-shadow: 3px 5px 0px 0px #999;}
+section p a{color:blue;}
+
+.section2 ul li{line-height: 30px;}
+.section3 div{text-align: center; width: 100%;}
+.section3 div ul{overflow: hidden;}
+.section3 div ul li{border: 1px solid black; padding: 10px; line-height: 40px; float: left; margin: 10px;}
+
+.section4 ol{margin:15px 50px; line-height: 20px;}
+.section4 table{font-size:13px;border-collapse:collapse}
+.section4 table thead tr th{background-color: #333;color: white;width: 350px;height: 25px; text-align: left;padding-left: 10px; border: 1px solid gray;}
+.section4 table tbody tr td{ height: 25px; text-align: left;padding-left: 10px;border: 1px solid gray;}
+.lasttr{background-color: #ccc;}
+
+aside h3{margin-left: 15px; color: #000; border-left: 3px solid #ccc;padding-left: 10px;}
+aside form table{width: 100%; border-collapse:collapse;}
+aside form tr{margin: 30px;}
+aside form tr td{padding: 5px;}
+aside form table td.label{text-align: right; line-height: 22px; vertical-align: top;}
+aside form table td.content_hint{color: #ccc; padding-bottom: 20px;}
+aside form table td.submit input{width: 100%; background-color: #39f; color: white; border: 0 solid white; border-radius: 15px; height: 50px; margin-top: 10px; font-family:黑体; font-size: 16px;}
+textarea{width: 100%; font-size: 15px;}
+
+footer{background-color: black; height: 60px; text-align: center; width: 100%;}
+footer span{color: white; line-height: 60px;}

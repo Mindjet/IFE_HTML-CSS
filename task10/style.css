@@ -1,0 +1,48 @@
+
+
+.container{
+	display: flex;
+	justify-content:space-between;
+	padding: 20px;
+	flex-flow:row nowrap;
+	/*width: 100%;*/
+	align-items:center;
+	max-width: 760px;
+	outline: 1px solid black;
+	margin: 0 auto;
+}
+
+.item{
+	outline: 1px solid red;
+	width: 150px;
+}
+
+.child1{
+	height: 120px;
+}
+
+.child2{
+	height: 100px;
+}
+
+.child3{
+	height: 40px;
+}
+
+.child4{
+	outline: 1px solid blue;
+	height: 200px;
+}
+
+@media all and (max-width: 640px) {
+	
+	.container{
+		flex-wrap:wrap;
+	}
+	
+	.child4{
+		order:-1;
+		margin-bottom: 20px;
+	}
+
+}

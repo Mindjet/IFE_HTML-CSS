@@ -1,0 +1,130 @@
+*{margin: 0; padding: 0;}
+.logo img{width: 46px; padding: 7px 0; float: left;}
+.login img{width: 26px; padding: 17px 0; float: left;}
+.section1 .bigimage{width: 1440px; margin: 0 auto; display: block; } 
+
+header{width: 100%; height: 60px; background-color: #f8f8f8; overflow: hidden;} 
+.logo{float: left; margin-left: 60px; font: 22px 黑体;}
+.logo p{float:left; margin: 19px 15px; color: #666;}
+nav ul{padding-right: 140px; font: 18px 黑体;}
+nav ul li{float: right; padding: 21px 0 21px 50px;}
+nav ul li a:link{color: #666; text-decoration: none; padding-bottom: 16px;}
+nav ul li a:hover{border-bottom: 4px solid #e74949;}
+nav ul li a:visited{color: #666;}
+.login{float: right; padding: 0 30px;}
+.login p{float: left; margin: 21px 5px; font: 18px 黑体; color: #e74949;}
+.login a{text-decoration: none; color: #e74949;}
+
+
+.section1{position: relative;}
+.section1 .bigtext{position: absolute; top: 30%; margin-left: 120px;}
+.section1 .bigtext h1{font: 70px Microsoft YaHei; color: white;}
+.section1 .bigtext h3{font: 25px Microsoft YaHei; color: white; margin: 20px 0 70px;}
+.section1 .bigtext .button{font: 30px Microsoft YaHei;width: 400px; background-color: #e74949; height: 70px; line-height: 70px; color: white; text-align: center; letter-spacing: 5px; transition:width 1s, height 1s;}
+.section1 .bigtext .button:hover{/*background-color: #f33;*/ width: 500px; height: 90px; line-height: 90px;}
+.section1 .bigtext .button a{text-decoration: none; color: white;}
+.section1 table{border-collapse: collapse; margin: 0 auto;}
+.section1 table th{padding: 25px 25px 25px 0; background-color: white; width: 350px; height: 250px;}
+/*.section1 table .content{}*/
+.section1 table .line{float: left; width: 2px; background-color: gray; height: 55px;}
+.section1 table th p{font: 15px Microsoft YaHei; margin-top: 40px; max-width: 180px;margin: 40px auto 50px; color: #737373;}
+
+.section2{position: relative;}
+.section2 .aheadtitle{height: 440px; background-color: #dbdbdb; text-align: center;}
+.section2 .aheadtitle img{margin: 90px 0 50px 0;}
+.section2 .aheadtitle p{font: 60px Microsoft YaHei; color: #999; }
+.section2 .search{height: 400px;/* text-align: center;*/ position: relative; overflow: hidden;}
+.section2 .search img{width: 100%;}
+.section2 .search .title2{font: 30px Microsoft YaHei; color: white; margin-top: 40px; position: absolute; top: 5%; left: 50%; transform:translateX(-50%);}
+.section2 .search hr{width: 60px;position: absolute; top: 26%; left: 50%; transform:translateX(-50%); height: 4px; background-color: white; border: 0;}
+.section2 .search .subtitle{font: 15px Microsoft YaHei; color: white; margin-top: 10px; position: absolute; top: 30%; left: 50%; transform:translateX(-50%);}
+.section2 form table{position: absolute; top: 60%; left: 50%; transform:translate(-50%,-50%); border-collapse: collapse;}
+.section2 form table th{padding-left: 30px;}
+.section2 form table th input,select{width: 200px; height: 50px; padding: 0; border: 0;font:15px Microsoft YaHei; }
+.section2 .sousuo input{font:20px Microsoft YaHei; background-color: #e74949; color: white;}
+.section2 .example{padding: 90px 0 80px 0; }
+.section2 .example table{border-collapse: collapse; margin: 0 auto;}
+.section2 .example table th{padding: 20px;}
+.section2 .example table .image{padding: 20px 10px; border: 1px solid #ccc; background-color: #dadada;}
+.section2 .example table th .image img{height: 350px;}
+.example .HK .title{font:18px Microsoft YaHei; color: #111; margin: 20px 0 9px 0; }
+.example .BJ .title{font:18px Microsoft YaHei; color: #111; margin: 20px 0 9px 0; }
+.example .SZ .title{font:18px Microsoft YaHei; color: #111; margin: 20px 0 9px 0; }
+.example .SH .title{font: 22px Microsoft YaHei;}
+.example .subtitle{font:14px Microsoft YaHei; color: #999; margin: 5px 0;}
+
+
+.section3 table{border-collapse: collapse; margin: 0 auto; }
+.section3 .row1{overflow: hidden;}
+.section3 .row1 th{height: 540px;}
+.section3 .row1 figure{width: 960px; position: relative; height: 540px;}
+.section3 .row1  figure img{width: 960px;}
+.section3 .row1 figure div{position: absolute;top: 50%; left: 50%; font-weight: normal;transform:translate(-50%,-50%); color: white; text-align: center; font-family:  Microsoft YaHei;}
+.section3 .row1 figure .name{font-size: 50px;}
+.row1 figure .big{font-size: 180px; line-height: 160px;}
+.row1 figure .loc{font-size: 25px; margin-top: 20px;}
+.row1 figure .time{font-size: 22px; margin-top: 10px;}
+.row1 .intro{width: 480px;}
+.row1 .intro .title{font:24px Microsoft YaHei;}
+.row1 .intro .title .lit{font-style: italic;}
+.row1 .intro .title .num{color: #e74949;}
+.row1 .intro .newworld{width: 350px; display: inline-block; font: 13px Microsoft YaHei; line-height: 50px; margin-top: 20px; text-align: left; color: #999;} 
+.row1 .intro .more{width: 120px; height: 45px; margin: 0 auto; background-color: white; border:1px solid #e74949; font-family: Microsoft YaHei; margin-top: 40px;}
+.row1 .intro .more a{text-decoration: none; color: #e74949;font-size: 15px; line-height: 45px; letter-spacing: 2px;}
+.row1 .intro .more:hover{background-color: #e74949; color: white;}
+.row1 .intro .more a:hover{color: white;}
+
+.row2 th img{width: 480px;}
+.row2 .block1{background-color: #e74949;height: 608px;}
+.row2 .block2{background-color: white; height: 608px;}
+.row2 p{font: 25px Microsoft YaHei; padding: 200px 0 20px 0; letter-spacing: 2px;}
+.row2 hr{width: 35px; border: 0; background-color: #999; height: 2px; margin: 0 auto;}
+.row2 .button{width: 180px; height: 45px; margin: 50px auto 0; font-family: Microsoft YaHei; transition:width 0.5s;}
+.row2 a{line-height: 45px;text-decoration: none; font-size: 20px; letter-spacing: 4px; font-weight: normal;	}
+.row2 .block1 p{color: white;}
+.row2 .block2 p{color: #e74949;}
+.row2 .block1 hr{background-color: white;}
+.row2 .block2 hr{background-color: #e74949;}
+.row2 .block1 .button{border: 1px solid white;}
+.row2 .block2 .button{border: 1px solid #e74949;}
+.row2 .block1 .button:hover{background-color: white; width: 240px;}
+.row2 .block2 .button:hover{background-color: #e74949;width: 240px;}
+.row2 .block1 a{color: white;}
+.row2 .block2 a{color: #e74949;}
+.row2 .block1 a:hover{color: #e74949;}
+.row2 .block2 a:hover{color: white;}
+
+.section4{padding-top: 130px; overflow: hidden; margin: 0 auto; width: 1440px; padding-bottom: 100px;}
+.section4 .topup{text-align: center;}
+.section4 .topup p{font:25px Microsoft YaHei; margin-bottom: 10px;}
+.section4 .topup hr{background-color: #e74949; border: 0; width: 30px; height: 2px; margin:0 auto 15px;}
+.section4 .topup span{font:14px Microsoft YaHei; color: #999;}
+.section4 aside{float: left; width: 360px; padding-left: 150px; margin-top: 50px; background-color: white;}
+.section4 aside.>div{margin-bottom: 50px;}
+.section4 aside p{font:18px Microsoft YaHei; margin-bottom: 20px;}
+.section4 aside a{text-decoration: none; color: black;}
+.section4 aside span{font: 14px 宋体; color: #999; line-height: 30px;}
+.section4 aside .formore{color: black; text-align: right;}
+.section4 form{margin-top: 50px; padding-left: 600px; width: 100%}
+.section4 form table{border-collapse: collapse; font:15px 宋体; color: #333; }
+.section4 form table .name,.age,.address,.contact{background-color: #e3e3e3; padding: 15px 20px; margin: 0 30px 20px 0; width: 300px;}
+.section4 form table .brief{background-color: #e3e3e3; padding: 15px 20px; margin: 0 30px 20px 0; height: 150px;}
+.section4 form td input{background-color: #e3e3e3; border: 0;  cursor: pointer; font:15px; outline: none;}
+.section4 form table .input{background-color: #e3e3e3; margin: 0 30px 20px 0; height: 45px; text-align: center; line-height: 45px; cursor: pointer; font:15px;}
+
+footer{width: 100%; position: relative;}
+footer .contactus{background-color: rgb(51,54,63);color: white; text-align: center; padding-top: 80px; overflow: hidden; padding-bottom: 140px;}
+footer .contactus p{font:24px Microsoft YaHei; margin-bottom: 15px; letter-spacing: 2px;}
+footer .contactus span{font: 13px 华文中宋; line-height: 20px; }
+footer .submit{margin: 30px auto 0; height: 40px; position: relative;}
+footer .submit input{width: 350px; height: 40px; font-size: 25px; padding-left: 10px; border: 0; float: left;}
+footer .submit .button{width: 150px; height: 40px; line-height: 40px; border: 0; float: left; background-color: #999; font:20px Microsoft YaHei;}
+footer .button a{color: white; text-decoration: none; line-height: 40px; letter-spacing: 5px;}
+footer .button a:hover{font-size: 23px;}
+footer .content{position: absolute; left: 50%; margin-left: -250px; }
+
+footer .bottom{background-color: rgb(48,48,58); font:13px Microsoft YaHei;width: 100%; height: 70px; line-height: 70px; color: white; }
+footer .bottom span{margin-left: 50px;}
+footer .bottom a{float: right; color: white; text-decoration: none; margin-right: 50px;}
+footer .imageGroup{overflow: hidden; position: absolute; left: 50%; transform:translateX(-50%); margin-top: 20px;}
+footer .imageGroup dd{float: left; padding: 15px;}

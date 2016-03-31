@@ -1,0 +1,62 @@
+
+table{
+	font: 13px Microsoft YaHei;
+	margin: 30px auto;
+}
+
+table thead th{
+	background-color: black; color: white;
+	text-align: left;
+}
+
+table tbody .top3{
+	color: red;
+}
+
+table tbody .odd{
+	background-color: white;
+}
+
+table tbody .even{
+	background-color: #ccc;
+}
+
+form{text-align: center;}
+
+form input{
+	width: 140px;
+	transition: width .3s ease-in; 
+}
+
+form input:focus{width: 200px; }
+
+.banner{
+	width: 300px;
+	height: 150px;
+	background-color: blue;
+	position: relative;
+	margin:30px auto;
+}
+
+.changegroup{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.change{
+	width: 30px;
+	height: 30px;
+	float: left;
+	background-color: white;
+	opacity: 0.5;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 5px;
+	cursor:pointer;
+}
+
+.page1:active{
+	
+}

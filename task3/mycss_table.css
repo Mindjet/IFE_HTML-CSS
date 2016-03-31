@@ -1,0 +1,13 @@
+*{margin: 0;padding: 0;}
+img{width: 80px; height: 80px; border: 1px solid #999;}
+body{padding: 20px; font-size: 14px; font-family:Times New Roman; background-color: white;}
+
+table{ border-collapse: collapse;}
+table tbody{vertical-align: top; background-color:#ccc;}
+table tbody tr th{ padding: 20px; }
+.left{width: 200px; padding: 20px; background-color: white;overflow: hidden;border: 1px solid #999;}
+.left .team_logo{float: left;}
+table .th2{padding: 20px 0;}
+.middle{background-color: white;border: 1px solid #999;padding: 20px;}
+.right{width: 120px;background-color: white;border: 1px solid #999;}
+.right dd{margin: 20px;}

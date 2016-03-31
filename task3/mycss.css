@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0;}
+
+.main{padding: 20px; font-family: 黑体; font-size: 14px; background-color: #ccc; overflow: hidden;margin: 20px;}
+img{border: 1px solid #999; width: 80px; height: 80px;}
+
+.left{background-color: white; float: left; padding: 20px; width: 200px;}
+.left .leftlogo{float: left;}
+.left .name{text-align: center;}
+.middle{padding-left: 260px; padding-right: 140px;}
+.middle .content{border: 1px solid #999; background-color: white; float: left; padding: 20px;}
+.right{float: right;background-color: white;}
+
+.right dd{margin: 20px;}
+

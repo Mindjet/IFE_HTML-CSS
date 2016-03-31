@@ -1,0 +1,739 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 1440px;
+	margin: 0 auto;
+}
+
+/*---------------------------------this is header--------------------------------------*/
+
+header{
+	overflow: hidden;
+	background-color: #39c;
+	height: 60px;
+}
+
+header .logo{
+	float: left;
+	margin: 15px 0 0 50px;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	background-color: white;
+	box-sizing:border-box;
+	transition:transform .8s;
+}
+
+header .logo:hover{cursor:pointer;transform:rotate(720deg);}
+
+header .logo .rect{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: white;
+	outline: 3px solid #39c;
+}
+
+header .login{
+	float: right;
+	margin: 23px 80px 0 0;
+	height: 15px;
+	font: 15px Microsoft JhengHei;
+	font-weight: bold;
+}
+
+header .login span a{text-decoration: none; color: white;}
+
+header .search{
+	background-color: white;
+	height: 25px;
+	border-radius: 25px;
+	/*width: 220px;*/
+	float: right;
+	box-sizing:border-box;
+	padding: 0px 10px;
+	margin: 18px 80px 0 0;
+	overflow: hidden;
+}
+
+header .search img{
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+header .search form{
+	float: left;
+}
+
+header .search input{
+	outline: 0px;
+	border:0px;
+	width: 145px;
+	height: 25px;
+	transition:width .5s;
+}
+
+header .search input:hover{
+	width: 180px;
+}
+
+
+/*------------------------------------end of header---------------------------------------------*/
+
+/*-----------------------------------this is aside----------------------------------------------*/
+
+aside{
+	width: 300px;
+	padding: 40px 0px;
+	height: 1500px;
+	background-color: #313957;
+	font: 15px Microsoft JhengHei;
+	box-sizing:border-box;
+	float: left;
+}
+
+/*define the color of text*/
+aside .notact{
+	color: #999;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+aside .actived{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+aside .avatar{padding: 0 50px 0px 75px; }
+
+aside .avatar img{
+	float: left; 
+	margin-right: 18px; 
+}
+
+aside .avatar a{line-height: 60px;}
+
+
+aside .statics{
+	padding: 0 50px;
+	margin: 30px 0 30px;
+	text-align: center;
+}
+
+aside .statics .collect{
+	width: 100px;
+	text-align: center;
+	float: left;
+	border-right: 2px solid #999;
+}
+
+aside .statics a{
+	text-decoration: none;
+	color: #999;
+	font-weight: bold;
+}
+
+aside .table{
+	background-color: #363e5a;
+	padding: 10px 0 10px 65px;
+	line-height: 35px;
+}
+
+aside .table .file1,.file2,.file3{margin-left: 25px;}
+aside .table .file2 .doc{margin-left: 25px;}
+
+aside .personal,.share,.gallery,.growup,.account{
+	padding: 20px 0 20px 65px;
+}
+
+/*---------------------------------------------end of aside--------------------------------------*/
+
+
+/*----------------------------------------------this is article----------------------------------------*/
+article {
+	/*width: 100%;*/
+	max-width: 1240px;
+	background-color: #e1e1e1;
+	overflow: hidden;
+}
+
+article .content{
+	float: left;
+	padding: 30px 60px;
+	font: 15px Microsoft JhengHei;
+	overflow: hidden;
+}
+
+article .path{
+	width: 100%;
+	height: 35px;
+	background-color: white;
+	font: 15px Microsoft JhengHei;
+	font-weight: bold;
+}
+
+article .path p{
+	line-height: 35px;
+	margin-left: 40px;
+}
+
+article .path span{
+	color: #39c;
+}
+
+
+.outline{
+	outline:1px solid #ccc;
+}
+
+
+/*-----------------------------this is search-----------------------------------------*/
+
+article .search{
+	width: 960px;
+	overflow: hidden;
+	background-color: white;
+	padding: 10px 30px 25px;
+}
+
+article .search .item{
+	float: left;
+}
+
+article .search .purchase{
+	float: left;
+	margin-left: 40px;
+	overflow: hidden;
+}
+
+article .buyandsell{
+	float: left;
+}
+
+article .purchase img{
+	margin-top: 30px;
+}
+
+article .details{
+	float: left;
+	margin-left: 30px;
+}
+
+article .search select,article .search input{
+	width: 120px;
+	margin-left: 15px;
+	margin-top: 15px;
+	outline: none;
+	height: 30px;
+}
+
+article .item select{width: 80px;}
+article .details .day input{height: 25px; margin-right: 16px;}
+article .details .day select{width: 80px;}
+article .details .num .number{width: 80px; margin-right: 20px;} 
+
+article .search .button{
+	width: 60px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	background-color: #39c;
+	color: white;
+	float: left;
+	margin: 36px 0px 0 30px;
+	cursor: pointer;
+}
+
+/*-----------------------------------end of search------------------------------*/
+
+/*-------------------------------this is timeline---------------------------------*/
+
+.timeline{
+	margin-top: 20px;
+	width: 1020px;
+	display: flex;
+	justify-content:space-between;
+}
+
+.timeline div{
+	text-align: center;
+	background-color: white;
+	/*padding: 5px 0;*/
+}
+
+.timeline .arrow{padding: 20px 10px;}
+
+.timeline .timeandprice{
+	padding: 10px 25px;
+}
+
+.timeline .time{
+	font: 14px Microsoft JhengHei;
+	font-weight: bold;
+}
+
+.timeline .price{color: grey;margin-top: 10px;}
+
+.timeline .price span{font-size: 25px; color: #f60;}
+
+.timeline .first{border-top: 3px solid #39c;}
+
+.timeline .history{
+	padding: 12px 18px; 
+	overflow: hidden; 
+	width: 120px;
+	transition:width .5s;
+} 
+
+.timeline .history:hover{
+	cursor: pointer;
+	width: 150px;
+}
+.timeline .history img{float: left;}
+.timeline .history p{margin-top: 18px;}
+
+/*--------------------------------------end of timeline--------------------------------------*/
+
+/*----------------------------this is volume----------------------------------------------*/
+
+
+.volume{
+	margin-top: 30px;
+}
+
+.volume .title{
+	font: 15px Microsoft JhengHei;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.volume .four{
+	display: flex;
+	justify-content:space-between;
+}
+
+.volume .block{
+	width: 200px;
+	background-color: white;
+	/*height: 50px;*/
+	padding: 15px;
+}
+
+.volume .block .figure{
+	float: left;
+}
+
+.volume .block .figure span{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.volume .block .figure .num{
+	margin-top: 0;
+}
+
+.volume .block .colorblock{
+	width: 68px;
+	height: 50px;
+	transition: width .4s;
+}
+
+.volume .block .colorblock:hover{
+	cursor: pointer;
+	width: 90px;
+}
+
+.volume .green{border-left: 4px solid #099;}
+.block .greenblock{background-color: #099; float: right;}
+
+.volume .blue{border-left: 4px solid #39c;}
+.block .blueblock{background-color: #39c; float: right;}
+
+.volume .red{border-left: 4px solid #c33;}
+.block .redblock{background-color: #c33; float: right;}
+
+.volume .yellow{border-left: 4px solid #fc0;}
+.block .yellowblock{background-color: #fc0; float: right;}
+
+/*----------------------------------end of volume--------------------------------*/
+
+/*------------------------------this is table1----------------------------*/
+
+.table1{
+	width: 60%;
+	border-radius: 10px;
+	background-color: white;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	padding-bottom: 30px;
+	float: left;
+}
+
+.table1 .head{
+	border-radius: 10px 10px 0 0;
+	background-color: #edecec;
+	height: 50px;
+	padding: 0 20px;
+	line-height: 50px;
+	color: grey;
+	margin-bottom: 15px;
+}
+
+.table1 .project{
+	overflow: hidden;
+}
+
+.table1 .project .pro,.prolast,.profirst{
+	width: 90px;
+	height: 30px;
+	line-height: 35px;
+	background-color: #ccc;
+	/*padding: 0 20px;*/
+	text-align: center;
+	border-radius: 6px 6px 0 0;
+	float: left;
+	margin-left: 10px;
+}
+
+.project .pro:hover,.prolast:hover{
+	cursor: pointer;
+	background-color: #39c;
+	color: white;
+}
+
+.project .profirst{
+	background-color: white; 
+	border: 1px solid #ccc; 
+	border-bottom: 0;
+	 margin-left: 20px;
+}
+
+
+.table1 .tb{
+	margin: 0 20px;
+	border-radius: 0 5px 5px 5px;
+	border: 1px solid #ccc;
+	margin-top: -2px;
+	padding: 35px 40px;
+}
+
+.table1 .tb table{
+	margin: 0 auto;
+	border-collapse: collapse;
+	/*outline: 2px solid #ccc;*/
+}
+
+.table1 .tb table tr td{
+	outline: 1px solid #ccc;
+	padding: 10px 20px;
+}
+
+.table1 .tb table tr td:hover{
+	cursor: pointer;
+	background-color: #edecec;
+}
+
+/*--------------------------------------end of table1-------------------------------*/
+
+/*------------------------------this is table2----------------------------------------*/
+.table2{
+	float: right;
+	width: 38%;
+	background-color: white;
+	border-radius: 10px;
+	box-sizing:border-box;
+	padding-bottom: 30px;
+	margin: 20px 0 0 0px;
+	border: 1px solid #ccc;
+}
+
+.table2 .head{
+	height: 50px;
+	background-color: #edecec;
+	border-radius: 10px 10px 0 0;
+	padding: 0 20px;
+	line-height: 50px;
+	color: grey;
+	margin-bottom: 15px;
+}
+
+.table2 .inside{
+	padding: 0 30px;
+}
+
+.table2 .grey{
+	color: grey;
+}
+
+.table2 p,.table2 span{
+	padding-left: 20px;
+}
+
+.table2 hr{
+	background-color: #ccc;
+	border: none;
+	height: 1px;
+}
+
+.table2 .tophr{
+	margin-top: 10px;
+}
+
+.table2 .price{
+	float: left;
+	padding: 10px 60px 10px 0;
+	border-right: 1px solid #ccc;
+}
+
+.table2 .charge{
+	padding: 10px 0 10px 10px;
+}
+
+.table2 .middlehr{
+	margin-bottom: 10px;
+}
+
+.table2 .bottomhr{
+	margin-top: 125px;
+}
+
+.table2 form{
+	margin:13px 0 20px 0;
+}
+
+.table2 form label{
+	margin-left: 10px;
+}
+
+.table2 form .sousuo{
+	width: 60px;
+	background-color: #39c;
+	color: white;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+/*------------------------------------end of table2----------------------------------*/
+
+/*-----------------------------------this is calendar--------------------------------*/
+
+
+.calendar{
+	width: 40%;
+	float: left;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.calendar .head{
+	height: 50px;
+	background-color: #edecec;
+	border-radius: 10px 10px 0 0;
+	padding: 0 20px;
+	line-height: 50px;
+	color: grey;
+}
+
+.calendar form{
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.calendar form select,.calendar form input{
+	width: 80px;
+	height: 30px;
+}
+
+.calendar .bluehr{
+	border: none;
+	height: 1px;
+	background-color: #39c;
+	margin: 8px 30px 0;
+}
+
+.calendar .week{
+	font-weight: bold;
+	display: flex;
+	padding: 10px 40px;
+	justify-content:space-between;
+}
+
+
+.calendar .week div:hover{
+	cursor: pointer;
+	background-color: #39c;
+	font-size: 20px;
+	color: white;
+}
+
+.calendar .blackhr{
+	border: none;
+	height: 1px;
+	background-color: #999;
+	margin: 0px 30px 0;
+}
+
+.calendar .row{
+	display: flex;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 25px;
+	justify-content:space-between;
+}
+
+.calendar .row div{
+	cursor: pointer;
+	padding: 5px 0;
+	width: 50px;
+}
+
+.calendar .row div:hover{
+	background-color: orange;
+}
+
+.calendar .row .red{
+	color: #c33;
+}
+
+.calendar .row .withoutline{
+	outline:1px solid orange;
+}
+
+
+/*-------------------------------------end of calendar----------------------------------*/
+
+/*------------------------------------this is billboard-----------------------------------*/
+
+.billboard{
+	margin-top: 20px;
+	width: 57.5%;
+	float: right;
+	border-radius: 10px;
+	border:1px solid #ccc;
+	padding-bottom: 30px;
+	background-color: white;
+}
+
+.billboard .head{
+	height: 50px;
+	background-color: #edecec;
+	border-radius: 10px 10px 0 0;
+	padding: 0 20px;
+	line-height: 50px;
+	color: grey;
+}
+
+.billboard .tb{
+	padding: 20px 30px;
+	background-color: white;
+}
+
+.billboard .tb table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.billboard .tb tr:hover{
+	background-color: #edecec;
+}
+
+.billboard .tb th,.billboard .tb td{
+	cursor: pointer;
+	padding: 7px 20px;
+	outline: 1px solid #ccc;
+}
+
+.billboard .index{
+	/*padding: 10px 0;*/
+	overflow: hidden;
+}
+
+
+.billboard .tb .index p{ 
+	margin-left: 5px;
+	float: left;
+}
+
+.billboard .tb .progress{
+	height: 4px;
+	width: 240px;
+	background-color: #ccc;
+	float: left;
+	margin: 8px 0 0 15px;
+}
+
+.billboard .tb .progressed{
+	height: 4px;
+}
+
+.volks{
+	width: 90%;
+	background-color: tomato;
+}
+
+.toyota{
+	width: 80%;
+	background-color: tomato;
+}
+
+.audi{
+	width: 70%;
+	background-color: orange;
+}
+
+.honda{
+	width: 65%;
+	background-color: #39c;
+}
+
+.ford{
+	width: 60%;
+	background-color: #39c;
+}
+
+.bmw{
+	width: 55%;
+	background-color: #39c;
+}
+
+.hyundai{
+	width: 50%;
+	background-color: #39c;
+}
+
+.kia{
+	width: 45%;
+	background-color: #39c;
+}
+
+.benz{
+	width: 40%;
+	background-color: #39c;
+}
+
+.buick{
+	width: 35%;
+	background-color: #39c;
+}
+
+/*---------------------------------end of billboard------------------------------------*/
+
+/*--------------------------------------end of article-----------------------------------------*/
+
