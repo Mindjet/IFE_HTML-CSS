@@ -1,0 +1,168 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: '黑体';
+}
+li{
+	list-style: none;
+}
+body{
+	max-width: 680px;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+header{
+	height: 50px;
+	width: 100%;
+	background-color: #fff;
+}
+header nav{
+	height: 50px;
+}
+
+.clearfix:after{
+		/*overflow: hidden;*/
+	content: "";
+	display: block;
+	clear: both;
+}
+
+section{
+	background-color: #fff;
+}
+header nav ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	line-height: 50px;
+}
+header nav ul li a{
+	width: 90%;
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	height: 50px;
+}
+.active{
+	box-sizing:border-box;
+	border-bottom: 3px solid rgb(144,212,218);
+
+}
+.section_img{
+	width: 100%;
+}
+.tag_group,.img_group{
+	margin-top: 15px;
+}
+.tag_group li,.img_group li{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.tag_group li img{
+	 width: 60%;
+	 margin-bottom: 10px;
+}
+
+.img_group li{
+	width: 33.33333333%;
+	box-sizing:border-box;
+	border-left: 1px solid #ccc;
+}
+.img_group li:first-child{
+	border:0;
+}
+.img_group li img{
+	height: 86px;
+}
+.img_group{
+	border-top: 1px solid #ccc;
+	padding: 30px 0px 20px 0px;
+}
+.module_group{
+	margin-top: 20px;
+	padding: 15px;
+}
+.module_group h2{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.module{
+	height: 190px;
+	margin-top: 30px;
+}
+.module img{
+	float: left;
+	width: 30%;
+	padding-right: 5%;
+}
+
+.content{
+	display: flex;
+	justify-content:space-between;
+	width: 65%;
+	flex-flow:row wrap;
+	align-content:space-between;
+	height: 183px;
+}
+
+.content span{
+	background-color: #eee;
+	padding: 30px 0;
+	width: 45%;
+	text-align: center;
+}
+
+.details{
+	margin-top: 30px;
+	background-color: #ccc;
+}
+
+.row{
+	background-color: white;
+	padding: 20px 25px;
+	position:relative;
+}
+
+.row img{
+	float: left;
+	width: 35%;
+	margin-right: 20px;
+}
+
+.row .text{
+	display: flex;
+	align-content:space-between;
+	flex-flow:row wrap;
+}
+
+.row .title{
+	font:22px 黑体;
+	margin-bottom:110px;
+}
+
+.row .time{
+	color: #ccc;
+}
+
+.row2{
+	margin: 5px 0;
+}
+
+.row3 .title{
+	margin-bottom: 10px;
+}
+
+.row3 .figures{
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+.row3 .figures img{
+	width: 32%;
+	margin-right: 2%;
+}
+
+.row3 .figures img:last-child{
+	margin-right: 0;
+}
